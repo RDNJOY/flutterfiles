@@ -11,11 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Rudra Restaurant',
-      theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
-      ),
-      home: const HomePage(),
+      title: 'Registration Form',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const RegistrationPage(),
       debugShowCheckedModeBanner: false,
     );
   }
